@@ -1,0 +1,24 @@
+:root{
+    --imagem-de-fundo: url ('imagem1.jpg')
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: var(--imagem-de-fundo);
+    transition: background-image 1s;
+}
+
+#trocar-imagem{
+    padding: 8px 16px;
+    font-size: 32px;
+    cursor: pointer;
+}
