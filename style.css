@@ -1,5 +1,5 @@
 :root{
-    --imagem-de-fundo: url ('imagem1.jpg')
+    --imagem-de-fundo: url('imagem1.jpg')
 }
 
 *{
@@ -21,4 +21,6 @@ body{
     padding: 8px 16px;
     font-size: 32px;
     cursor: pointer;
+    background-color: linen;
+    border-radius: 7px;
 }
